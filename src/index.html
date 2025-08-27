@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+	<title>Iron Butt Russia</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<h2 style="text-align: center; margin: 40px auto; color: black">
+		Pages
+	</h2>
+	<ul class="mm" style="display: flex; max-width: 800px; margin: 0 auto 50px; flex-wrap: wrap;">
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="main.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Главная</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="procedure.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Процедура</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="standarts.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Нормативы</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="merch.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Мерч</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="news.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Новости</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="news-item.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Новость</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="policy.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Политика</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="archive.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Архив</a>
+		</li>
+		<li style="width: 25%; margin: 40px auto 0;">
+			<a href="laureates.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Лаулераты</a>
+		</li>
+		<li style="width: 25%; margin: 40px auto 0;">
+			<a href="enter.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Авторизация</a>
+		</li>
+		<li style="width: 25%; margin: 40px auto 0;">
+			<a href="reg.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Регистрация</a>
+		</li>
+		<li style="width: 25%; margin: 40px auto 0;">
+			<a href="policy.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Политика</a>
+		</li>
+		<li style="width: 25%; margin: 40px auto 0;">
+			<a href="service.html"
+				style="font-weight: bold; color: black; font-size: 25px; display: block; text-align: center;">Услуга</a>
+		</li>
+	</ul>
+	<div class="d-flex"
+		style="justify-content: center; margin-top: 80px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap;">
+		<a href="#" class="btn btn_1 a1" style="margin: 20px;">
+			popup
+		</a>
+		<a href="#" class="btn a2" style="margin: 20px;">
+			merch
+		</a>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call">
+			<div class="popup-call__box call">
+				<div class="box-modal__close articmodal-close">
+					<img src="img/close.svg" alt="">
+				</div>
+				<p class="popup__title">
+					Оформить заказ
+				</p>
+				<form action="success.php" class="form js-form" id="popupResult" method="post">
+					<input type="text" placeholder="Имя" name="name" required="">
+					<input type="tel" placeholder="Телефон" name="tel" class="tel">
+					<button class="btn" data-submit>
+						Отправить заявку
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div style="display: none;">
+		<div class="box-modal" id="popup-merch">
+			<div class="popup-call__box call">
+				<div class="box-modal__close articmodal-close">
+					<img src="img/close.svg" alt="">
+				</div>
+				<p class="popup__title">
+					Оформить заказ
+				</p>
+				<div class="popup__row q">
+					<div class="popup__left">
+						<img src="img/item.png" alt="">
+					</div>
+					<div class="popup__right">
+						<p class="popup__name">
+							Только для лауреатов
+						</p>
+						<p class="popup__delivery">
+							Доставка по тарифам <span> Почты РФ или СДЭК</span>
+						</p>
+						<p class="popup__delivery popup__delivery_2">
+							Для заказа напишите ваше ФИО, <br> почтовый адрес, телефон и количество
+						</p>
+						<a href="#" class="popup__remove">
+							Удалить
+						</a>
+					</div>
+				</div>
+				<form action="success.php" class="form js-form" id="popupResult" method="post">
+					<input type="text" placeholder="Имя" name="name" required="">
+					<input type="email" placeholder="Email" name="email" required="">
+					<input type="tel" placeholder="+7 (___) ___ - __ - __" name="tel" class="tel">
+					<button class="btn" data-submit>
+						Отправить
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-thank">
+			<div class="popup-call__box">
+				<div class="box-modal__close articmodal-close">
+					<img src="img/close.svg" alt="">
+				</div>
+				<img src="img/thank.svg" alt="">
+				<p class="popup__title">
+					Спасибо за заявку!
+				</p>
+				<p class="popup__txt">
+					Наши менеджеры свяжутся <br>
+					с вами в ближайшее время
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="js/all.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript"
+		src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+</body>
+
+</html>
