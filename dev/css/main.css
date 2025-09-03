@@ -946,13 +946,13 @@ ul.info li {
     top: -16px; }
 
 .info {
-  padding: 22px 20px; }
+  padding: 70px 20px 22px; }
   .info .container {
     padding: 0; }
   .info__row {
     justify-content: space-between;
     overflow-x: auto;
-    margin-bottom: 79px; }
+    margin-bottom: 70px; }
   .info__item {
     align-items: center;
     margin-right: 85px;
@@ -1456,7 +1456,7 @@ ul.info li {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 12.45px;
+    font-size: 14.45px;
     font-weight: 400;
     padding-bottom: 4px;
     border-bottom: 1px solid white;
@@ -1482,24 +1482,24 @@ ul.info li {
     max-width: 228px;
     margin-right: 100px;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 120%;
     color: #FFFFFF; }
   .faq__num {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 120%;
     color: #468CDF;
     margin-right: 52px;
-    min-width: 40px; }
+    min-width: 44px; }
     .faq__num span {
       margin-right: 12px; }
   .faq__text {
     width: 100%;
     max-width: 479px;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 21px;
     color: #FFFFFF; }
   .faq__arrow {
     margin-left: auto;
